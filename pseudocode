@@ -1,0 +1,16 @@
+  START
+              //  Declare variables to store restaurant information
+              DECLARE  String restaurantName
+              DECLARE  String businessAddress
+              DECLARE  String cityStateZip
+              
+              //  Assign values to the variables 
+              RestaurantName  “Abby’s Café”
+              businessAddress  “E Florida Ave”
+              cityStateZip  “Hemet, CA 92544”
+            
+              //  Display the restaurant information
+              DISPLAY restaurantName
+              DISPLAY businessAddress
+              DISPLAY cityStateZip
+END
