@@ -1,0 +1,38 @@
+public class RestaurantName {
+
+	public static void main(String[] args) {
+		// pseudo Code:
+		// Begin
+		// Declare variables to store the restaurant information:
+		// restaurantName, businessAddress, city, state, zipCode
+		
+		// set values for these variables:
+		// restaurantName = "Abby's Cafe"
+		// businessAddress = "E Florida Ave"
+		// city = "Hemet"
+		// state = "California"
+		// zipCode = "92544"
+		
+		// Output the restaurant details:
+		// Print restaurantName
+		// Print businessAddress
+		// Print city
+		// zipCode
+		
+		// Actual Code Implementation Below:
+		
+		// Declare variables 
+		String restaurantName = "Abby's Cafe";
+		String businessAddress = "E Florida Ave";
+		String city = "Hemet";
+		String state = "California";
+		String zipCode = "92544";
+			
+		// Output the restaurant details
+		System.out.println("Restaurant Name:" + restaurantName);
+		System.out.println("Business Address;" + businessAddress);
+		System.out.println("City:" + city);
+		System.out.println("State:" + state);
+		System.out.println("Zip code:" + zipCode);
+     }
+}
